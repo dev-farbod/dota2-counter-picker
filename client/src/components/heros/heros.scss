@@ -1,0 +1,90 @@
+.hero-list {
+    border: 1px solid #eeebdd;
+    display: grid;
+    grid-template-rows: 5rem 1fr;
+    max-height: 100vh;
+    overflow: auto;
+    .search {
+        text-align: center;
+        margin: 1rem auto;
+        background-color: #c4c4c44d;
+        border-radius: 0.2rem;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 3rem 1fr;
+        place-items: center;
+        border: white 1px solid;
+        input {
+            width: 90%;
+            padding: 0.5rem;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            font-family: "Roboto Condensed", sans-serif;
+
+            &:focus {
+                outline: none;
+            }
+        }
+        i {
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+    }
+    .list {
+        padding-right: 0.2rem;
+        border-top: 1px solid white;
+        overflow: auto;
+        .list-container{
+            display: grid;
+            grid-gap: 0.5rem;
+            grid-template-columns: 1fr 1fr;
+        }
+        .each-hero {
+            cursor: pointer;
+            position: relative;
+            img {
+                width: 100%;
+            }
+            .name {
+                position: absolute;
+                color: white;
+                bottom: 0;
+                padding: 0.5rem;
+                background-color: rgba(0, 0, 0, 0.63);
+                width: max-content;
+                font-size: 0.8rem;
+            }
+            &:hover {
+                .name {
+                    background-color: #000;
+                }
+            }
+        }
+
+        /* width */
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        /* Track */
+        &::-webkit-scrollbar-track {
+            background: #00000083;
+            border-radius: 5.5rem;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #555;
+            border-radius: 5.5rem;
+
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #CE1212;
+        }
+    }
+}
