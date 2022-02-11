@@ -2,6 +2,11 @@
 
 This is a counter pick web application for Dota 2. It shows the advantage percentages against a hero or team
 
+## screen shot
+
+![alt text](https://i.ibb.co/j6m8hy2/Screenshot-from-2022-02-11-10-18-20.png)
+
+
 
 ## Installation
 
@@ -48,7 +53,4 @@ npm start
 
 
 
-## screen shot
-
-![alt text](https://i.ibb.co/j6m8hy2/Screenshot-from-2022-02-11-10-18-20.png)
 
