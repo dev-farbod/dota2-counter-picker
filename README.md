@@ -48,8 +48,7 @@ npm start
 
 
 
-## Demo
+## screen shot
 
-Insert gif or link to demo
+![alt text](https://i.ibb.co/j6m8hy2/Screenshot-from-2022-02-11-10-18-20.png)
 
-https://i.ibb.co/j6m8hy2/Screenshot-from-2022-02-11-10-18-20.png
