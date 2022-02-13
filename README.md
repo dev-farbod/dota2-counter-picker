@@ -45,7 +45,7 @@ cd client
 npm install
 
 ```
-Run Front-end
+Start React app
 
 ```bash
 npm start
